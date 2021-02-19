@@ -33,3 +33,5 @@ goto end
 
 :end
 popd
+
+xcopy build\html docs /e /y
