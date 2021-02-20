@@ -74,7 +74,7 @@ blockquote cite{
     text-align:right;
 }
 blockquote cite a{
-    display: block;
+    display:inline;
     font-size:0.8rem;
     color:#2e221d;
     text-align:right;
