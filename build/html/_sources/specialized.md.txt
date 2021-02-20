@@ -1,3 +1,16 @@
+<script>
+    MathJax = {
+        chtml: {
+            matchFontHeight: false
+        },
+        tex: {
+            inlineMath: [['$', '$']]
+        }
+    };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
 # 気象予報士試験　専門知識
 
 ## 第54回 問6
@@ -94,23 +107,8 @@
 > さらに、台風が日本に接近し、影響するおそれがある場合には、台風の位置や強さなどの実況と1時間後の推定値を1時間ごとに発表するとともに、24時間先までの3時間刻みの予報を3時間ごとに発表します。
 > 気象庁ウェブサイト [台風情報の種類と表現方法](https://www.jma.go.jp/jma/kishou/know/typhoon/7-1.html){.origin.pull-right}
 
-> 台風は暖かい海面から供給された水蒸気が凝結して雲粒になるときに放出される熱をエネルギーとして発達します。しかし、移動する際に海面や地上との摩擦により絶えずエネルギーを失っており、仮にエネルギーの供給がなくなれば２～３日で消滅してしまいます。また、日本付近に接近すると上空に寒気が流れ込むようになり、次第に台風本来の性質を失って「温帯低気圧」に変わります。あるいは、熱エネルギーの供給が少なくなり衰えて「熱帯低気圧」に変わることもあります。上陸した台風が急速に衰えるのは水蒸気の供給が絶たれ、さらに陸地の摩擦によりエネルギーが失われるからです。 
-> <span style="align:right">気象庁ウェブサイト [台風とは](https://www.jma.go.jp/jma/kishou/know/typhoon/1-1.html)</span>
+<blockquote cite="https://www.jma.go.jp/jma/kishou/know/typhoon/1-1.html">台風は暖かい海面から供給された水蒸気が凝結して雲粒になるときに放出される熱をエネルギーとして発達します。しかし、移動する際に海面や地上との摩擦により絶えずエネルギーを失っており、仮にエネルギーの供給がなくなれば２～３日で消滅してしまいます。また、日本付近に接近すると上空に寒気が流れ込むようになり、次第に台風本来の性質を失って「温帯低気圧」に変わります。あるいは、熱エネルギーの供給が少なくなり衰えて「熱帯低気圧」に変わることもあります。上陸した台風が急速に衰えるのは水蒸気の供給が絶たれ、さらに陸地の摩擦によりエネルギーが失われるからです。 
+気象庁ウェブサイト [台風とは](https://www.jma.go.jp/jma/kishou/know/typhoon/1-1.html)</blockquote>
 
 > コリオリ力の性質は次のとおりである。
-> (1) 緯度 `$\phi$` にあって水平速度$V$で動いている空気塊はコリオリ力を受ける。
-
-<script>
-    MathJax = {
-        chtml: {
-            matchFontHeight: false
-        },
-        tex: {
-            inlineMath: [['$', '$']]
-        }
-    };
-</script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script>
-
-エネルギーと質量には $E = mc^2$ の関係がある。
+> (1) 緯度 $\phi$ にあって水平速度$V$で動いている空気塊はコリオリ力を受ける。
