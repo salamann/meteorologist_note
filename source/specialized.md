@@ -109,7 +109,7 @@
 
 <blockquote cite="https://www.jma.go.jp/jma/kishou/know/typhoon/1-1.html">台風は暖かい海面から供給された水蒸気が凝結して雲粒になるときに放出される熱をエネルギーとして発達します。しかし、移動する際に海面や地上との摩擦により絶えずエネルギーを失っており、仮にエネルギーの供給がなくなれば２～３日で消滅してしまいます。また、日本付近に接近すると上空に寒気が流れ込むようになり、次第に台風本来の性質を失って「温帯低気圧」に変わります。あるいは、熱エネルギーの供給が少なくなり衰えて「熱帯低気圧」に変わることもあります。上陸した台風が急速に衰えるのは水蒸気の供給が絶たれ、さらに陸地の摩擦によりエネルギーが失われるからです。 
 
-<span style="align: right">気象庁ウェブサイト [台風とは](https://www.jma.go.jp/jma/kishou/know/typhoon/1-1.html)</span></blockquote>
+<span style="text-align:right;">気象庁ウェブサイト [台風とは](https://www.jma.go.jp/jma/kishou/know/typhoon/1-1.html)</span></blockquote>
 
 一般気象学　第2版138ページ
 
