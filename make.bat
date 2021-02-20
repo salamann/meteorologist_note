@@ -35,3 +35,6 @@ goto end
 popd
 
 xcopy build\html docs /e /y
+git add --all
+git commit -m "today's study"
+git push

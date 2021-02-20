@@ -3,17 +3,23 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to meteorologist's documentation!
+気象予報士試験勉強ノート
 =========================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: 勉強ノート:
+   :caption: 気象予報士試験過去問:
 
    general
    specialized
    practical
 
+.. toctree::
+   :maxdepth: 2
+   :caption: 雑記:
+
+   sphinx_settings
+   
 
 
 Indices and tables

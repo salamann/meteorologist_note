@@ -80,11 +80,11 @@
               
             
             
-              <p class="caption"><span class="caption-text">勉強ノート:</span></p>
+              <p class="caption"><span class="caption-text">気象予報士試験過去問:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="general.html">気象予報士試験　一般知識</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">気象予報士試験　専門知識</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id2">問6</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">第54回 問6</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id3">問題</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id4">感想と解答</a></li>
 </ul>
@@ -92,6 +92,11 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="practical.html">気象予報士試験　実技</a></li>
+</ul>
+<p class="caption"><span class="caption-text">雑記:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="sphinx_settings.html">Sphinxの設定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sphinx_settings.html#markdown">Markdown</a></li>
 </ul>
 
             
@@ -159,7 +164,7 @@
   <div class="section" id="id1">
 <h1>気象予報士試験　専門知識<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h1>
 <div class="section" id="id2">
-<h2>問6<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2>第54回 問6<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="section" id="id3">
 <h3>問題<a class="headerlink" href="#id3" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <p>気象庁の天気予報ガイダンスについて述べた次の文(a)~(c)の正誤の組み合わせとして正しいものを,下記の①~⑤の中から1つ選べ。</p>
@@ -184,14 +189,22 @@
 <li><p>降水確率ガイダンス (Probability of Precipitation, PoP): 所定の時間内に1mm以上の降水のある確率を示すガイダンス。予報対象領域内での地点確率の平均値を示す。</p></li>
 </ul>
 </li>
+<li><p>思考過程</p>
+<ul>
 <li><p>(a) 降水ガイダンスは統計的に系統誤差を処理できるので、間違っているように思える</p></li>
 <li><p>(b) 常に数値がある一定量のWind Directionずれを起こすような場所では、統計式で修正可能に思えるので、間違っているように思える</p></li>
 <li><p>(c) 気象庁のサイトによると、発雷ガイダンスは一発でも雷が落ちる確率な感じがする。ので間違っているように思える</p></li>
 </ul>
-<p>正解は正誤誤。(a)の降水域のずれはランダムらしい。なぜランダムというのかはよくわからないな・・</p>
-<ul class="simple">
+</li>
+<li><p>正解は正誤誤。(a)の降水域のずれはランダムらしい。なぜランダムというのかはよくわからないな・・</p></li>
 <li><p>参考：https://kishoyohoshi.com/archives/15900.html#q06</p></li>
 <li><p>よく考えてみると、降水域は常にはずれている、とは言っていない。なので正がいい気がする。そうすると(b)も常に外れているとは言っていないので文句をいいたくなるが、Wind speedはなんとかなってWind Directionはダメという文章自体がおかしいので誤と判断できそうだ。</p></li>
+<li><p>ガイダンスのところを知って面白かったのは、</p>
+<ul>
+<li><p>結局数値で頑張って計算しても、そこから先は統計式にあてはめるということ（カルマンフィルターを使うにしても）</p></li>
+<li><p>降水確率というのは1mm以上降るときのことをさしていること。0%で1mm未満降っても文句を言ってはいけない。</p></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
