@@ -68,6 +68,8 @@ source_parsers = {
     '.md': CommonMarkParser,
 }
 
+source_suffix = ['.rst', '.md']
+
 math_number_all = True
 
 # custom css
