@@ -73,3 +73,9 @@ blockquote cite{
     color:#2e221d;
     text-align:right;
 }
+blockquote a{
+    display: block;
+    font-size:0.8rem;
+    color:#2e221d;
+    text-align:right;
+}
