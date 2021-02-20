@@ -98,4 +98,8 @@
 > <span style="align:right">気象庁ウェブサイト [台風とは](https://www.jma.go.jp/jma/kishou/know/typhoon/1-1.html)</span>
 
 > コリオリ力の性質は次のとおりである。
-> (1) 緯度$\phi$にあって水平速度$V$で動いている空気塊はコリオリ力を受ける。
+> (1) 緯度 `$\phi$` にあって水平速度$V$で動いている空気塊はコリオリ力を受ける。
+
+```math
+E = m c^2
+```

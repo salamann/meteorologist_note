@@ -30,9 +30,12 @@ author = 'salamann'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark',
-              'sphinx.ext.mathjax',
-              ]
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.mathjax',
+    'recommonmark',
+]
 
 
 # Add any paths that contain templates here, relative to this directory.
@@ -77,11 +80,23 @@ math_number_all = True
 # custom css
 
 
+# def setup(app):
+#     app.add_config_value('recommonmark_config', {
+#         'enable_math': True,
+#         'enable_inline_math': True,
+#         'auto_toc_tree_section': 'Contents',
+#     }, True)
+#     app.add_transform(AutoStructify)
+
+
 def setup(app):
     app.add_stylesheet('block.css')
     app.add_config_value('recommonmark_config', {
-        'enable_math': True,
-        'enable_inline_math': True,
+        # 'url_resolver': lambda url: github_doc_root + url,
         'auto_toc_tree_section': 'Contents',
+        'enable_math': False,
+        'enable_inline_math': False,
+        'enable_eval_rst': True,
+        'enable_auto_doc_ref': True,
     }, True)
     app.add_transform(AutoStructify)
