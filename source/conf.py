@@ -67,3 +67,8 @@ source_parsers = {
 }
 
 source_suffix = ['.rst', '.md']
+
+
+# custom css
+def setup(app):
+    app.add_stylesheet('block.css')

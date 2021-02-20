@@ -1,0 +1,68 @@
+blockquote {
+  position: relative;
+  display: table;
+  margin: 1rem;
+  padding: 2.3rem 2.3rem;
+  width: calc(100% - 2rem);
+  font-style: oblique;
+  font-size: 1rem;
+  border: dotted 1px #ececec;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+}
+
+blockquote:before {
+  position: absolute;
+  left: 4px;
+  top: 1.5rem;
+  font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+  font-size: 56px;
+  color: #d0d0d0;
+  content: '\0201C';
+}
+
+blockquote:after {
+  position: absolute;
+  right: 12px;
+  bottom: -1rem;
+  font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+  font-size: 56px;
+  color: #d0d0d0;
+  content: '\0201D';
+}
+
+blockquote * {
+  font-style: oblique;
+  font-size: 1rem;
+  color: #555;
+}
+
+blockquote .origin {
+  display: table-cell;
+  width: 100%;
+  margin: 1rem 0 0;
+  padding: 6px 4px 0 6px;
+  border-top: dotted 1px #e0e0e0;
+  text-align: right;
+  font-size: 0.857rem;
+  font-style: normal;
+  color: #909090;
+}
+
+blockquote .origin:before {
+  margin-right: 10px;
+  letter-spacing: -2px;
+  font-weight: 100;
+  color: #ddd;
+  content: '\02500\02500';
+}
+
+blockquote .origin:link, blockquote .origin:visited {
+  color: #999;
+  text-decoration: none;
+}
+
+blockquote .origin:hover, blockquote .origin:active {
+  color: #07c;
+  text-decoration: none;
+}
