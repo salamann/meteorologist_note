@@ -79,3 +79,6 @@ blockquote a{
     color:#2e221d;
     text-align:right;
 }
+blockquote p{
+    margin-bottom: 0;
+}
