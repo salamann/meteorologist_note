@@ -16,8 +16,10 @@
 
 
 # -- Project information -----------------------------------------------------
-
+import recommonmark
 from recommonmark.parser import CommonMarkParser
+from recommonmark.transform import AutoStructify
+
 project = 'meteorologist'
 copyright = '2021, salamann'
 author = 'salamann'
@@ -66,9 +68,15 @@ source_parsers = {
     '.md': CommonMarkParser,
 }
 
-source_suffix = ['.rst', '.md']
-
+math_number_all = True
 
 # custom css
+
+
 def setup(app):
     app.add_stylesheet('block.css')
+    app.add_config_value('recommonmark_config', {
+        'url_resolver': lambda url: github_doc_root + url,
+        'auto_toc_tree_section': 'Contents',
+    }, True)
+    app.add_transform(AutoStructify)
