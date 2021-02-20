@@ -100,6 +100,17 @@
 > コリオリ力の性質は次のとおりである。
 > (1) 緯度 `$\phi$` にあって水平速度$V$で動いている空気塊はコリオリ力を受ける。
 
-```math
-E = m c^2
-```
+<script>
+    MathJax = {
+        chtml: {
+            matchFontHeight: false
+        },
+        tex: {
+            inlineMath: [['$', '$']]
+        }
+    };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+エネルギーと質量には $E = mc^2$ の関係がある。
