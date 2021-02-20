@@ -18,3 +18,4 @@
     - epubはmathmlに対応しているため(mathjaxが使えないように見える)
     - markdownをpandocでhtmlに変換してから、calibreなどのepubコンバータで変換すると数式がちゃんと表示される
     - kindleで表示したい場合はkindler previewerでmobiなどに変換できる
+- [https://qiita.com/pashango2/items/cd78658bc16240ef23d8](https://qiita.com/pashango2/items/cd78658bc16240ef23d8)
