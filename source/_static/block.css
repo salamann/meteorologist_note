@@ -66,3 +66,10 @@ blockquote .origin:hover, blockquote .origin:active {
   color: #07c;
   text-decoration: none;
 }
+
+blockquote cite{
+    display: block;
+    font-size:0.8rem;
+    color:#F8C8B2;
+    text-align:right;
+}
